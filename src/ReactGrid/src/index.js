@@ -9,7 +9,6 @@ require("datatables.net");
 require("datatables.net-dt/css/jquery.dataTables.css");
 require("../wwwroot/libs/datatables-semantic-ui/dataTables.semanticui.min.css");
 require("../wwwroot/libs/datatables-semantic-ui/dataTables.semanticui.min.js");
-require("../wwwroot/libs/datatables-semantic-ui/buttons.semanticui.min");
 $(document).ready(function () {
     ReactDOM.render(React.createElement(react_router_1.Router, {history: react_router_1.hashHistory}, routes_1.default.getRoutes()), document.getElementById('app'));
 });
