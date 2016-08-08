@@ -1,2 +1,8 @@
 .vs/
-src/ReactGrid/ReactGrid.xproj.user
+*.xproj.user
+node_modules/
+Debug/
+bin/
+npm-debug.log
+.idea/
+src/ReactGrid/typings/
