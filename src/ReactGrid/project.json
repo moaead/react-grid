@@ -40,7 +40,6 @@
 
   "publishOptions": {
     "include": [
-      "wwwroot",
       "web.config"
     ]
   },
