@@ -26,7 +26,7 @@ export default class DataTables extends React.Component<{}, IStateDataTabe> {
         });
 
         let self = this;
-        $('#example').dataTable({
+        let table = $('#example').dataTable({
             "sPaginationType": "full_numbers",
             'ajax': "/test",
             'aoColumns': 
@@ -35,15 +35,14 @@ export default class DataTables extends React.Component<{}, IStateDataTabe> {
                 { 'mData': 'position' },
                 { 'mData': 'office' },
                 { 'mData': 'age' },
-                { 'mData': 'start_date' },
+                { 'mData': 'startDate' },
                 { 'mData': 'salary' }
             ],
             "bAutoWidth": true,
-            "bDestroy": true
-            // "fnDrawCallback": function () {
-            //     self.forceUpdate();
-            // },
+            "bDestroy": true,
+            // 'sDom': '<"toolbar">t'
         });
+        // $("div.toolbar").html('<b>Custom tool bar! Text/images etc.</b>');
     }
 
     componentDidUpdate() {
@@ -69,7 +68,7 @@ export default class DataTables extends React.Component<{}, IStateDataTabe> {
                             <th>Position</th>
                             <th>Office</th>
                             <th>Age</th>
-                            <th>Start date</th>
+                            <th>Start Date</th>
                             <th>Salary</th>
                         </tr>
                     </thead>
@@ -79,7 +78,7 @@ export default class DataTables extends React.Component<{}, IStateDataTabe> {
                             <th>Position</th>
                             <th>Office</th>
                             <th>Age</th>
-                            <th>Start date</th>
+                            <th>Start Date</th>
                             <th>Salary</th>
                         </tr>
                     </tfoot>

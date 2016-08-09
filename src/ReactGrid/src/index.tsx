@@ -6,6 +6,7 @@ import Routes from "./routes";
 require("../wwwroot/libs/semantic-ui/dist/semantic.min.js");
 require("../wwwroot/libs/semantic-ui/dist/semantic.min.css");
 require("datatables.net");
+require('datatables.net-buttons');
 // require("datatables.net-dt/css/jquery.dataTables.css");
 require("../wwwroot/libs/datatables-semantic-ui/dataTables.semanticui.min.css");
 require("../wwwroot/libs/datatables-semantic-ui/dataTables.semanticui.min.js");

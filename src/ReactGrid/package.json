@@ -26,6 +26,7 @@
   "dependencies": {
     "better-console": "^0.2.4",
     "datatables.net": "^1.10.12",
+    "datatables.net-buttons": "^1.2.2",
     "datatables.net-dt": "^1.10.12",
     "del": "^2.2.1",
     "extend": "^3.0.0",
